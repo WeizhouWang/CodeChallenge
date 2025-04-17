@@ -18,7 +18,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CodeChallenge\CodeChallenge.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="NUnit.Framework" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="wrongdeviceformat.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wrongdateformat.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
